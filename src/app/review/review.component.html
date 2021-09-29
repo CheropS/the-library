@@ -58,3 +58,28 @@
         </div>
       </mdb-slide>
       <!--/Second slide-->
+      <!--Third slide-->
+    <mdb-slide>
+        <div class="testimonial">
+          <!--Avatar-->
+          <div class="avatar mx-auto mb-4">
+            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle img-fluid"
+              alt="Third sample avatar image">
+          </div>
+          <!--Content-->
+          <p>
+            <mdb-icon fas icon="quote-left"></mdb-icon> The personal finance books most in-demand with readers discuss paying for 
+            college, retirement and Social Security, handling money during a crisis, and more </p>
+          <h4 class="font-weight-bold">John Doe</h4>
+          <h6 class="font-weight-bold my-3">Front-end Developer in NY</h6>
+          <!--Review-->
+          <ngb-rating [(rate)]="currentRate">
+            <ng-template let-fill="fill" let-index="index">
+              <span class="star" [class.filled]="fill === 100" [class.bad]="index < 3">&#9733;</span>
+            </ng-template>
+          </ngb-rating>
+          <hr>
+          <pre>Rate: <b>{{currentRate}}</b></pre>
+        </div>
+      </mdb-slide>
+      <!--/Third slide-->
