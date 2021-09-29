@@ -21,11 +21,40 @@
           <h4 class="font-weight-bold">Jessica Roberts</h4>
           <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
           <!--Review-->
-          <mdb-icon fas icon="star" class="blue-text"> </mdb-icon>
-          <mdb-icon fas icon="star" class="blue-text"> </mdb-icon>
-          <mdb-icon fas icon="star" class="blue-text"> </mdb-icon>
-          <mdb-icon fas icon="star" class="blue-text"> </mdb-icon>
-          <mdb-icon fas icon="star-half" class="blue-text"> </mdb-icon>
+          <ngb-rating [(rate)]="currentRate">
+            <ng-template let-fill="fill" let-index="index">
+              <span class="star" [class.filled]="fill === 100" [class.bad]="index < 3">&#9733;</span>
+            </ng-template>
+          </ngb-rating>
+          <hr>
+          <pre>Rate: <b>{{currentRate}}</b></pre>
         </div>
       </mdb-slide>
       <!--/First slide-->
+      <!--Second slide-->
+    <mdb-slide>
+        <div class="testimonial">
+          <!--Avatar-->
+          <div class="avatar mx-auto mb-4">
+            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class="rounded-circle img-fluid"
+              alt="Second sample avatar image">
+          </div>
+          <!--Content-->
+          <p>
+            <mdb-icon fas icon="quote-left"></mdb-icon> Growth in the audiobook category has continued, fueled by readers seeking new experiences. 
+            In fact, more than 79,000 audiobooks were published in the United States last year, according to the Audio Publishers Association (APA). 
+            That represents a 39 percent increase in the number of audiobooks produced since 2019, Publishing Perspectives reports.
+          </p>
+          <h4 class="font-weight-bold">Dennis Pierce</h4>
+          <h6 class="font-weight-bold my-3">Photographer at Studio LA</h6>
+          <!--Review-->
+          <ngb-rating [(rate)]="currentRate">
+            <ng-template let-fill="fill" let-index="index">
+              <span class="star" [class.filled]="fill === 100" [class.bad]="index < 3">&#9733;</span>
+            </ng-template>
+          </ngb-rating>
+          <hr>
+          <pre>Rate: <b>{{currentRate}}</b></pre>
+        </div>
+      </mdb-slide>
+      <!--/Second slide-->
