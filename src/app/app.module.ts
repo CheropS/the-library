@@ -7,6 +7,7 @@ import { ReviewComponent } from './review/review.component';
 import { ReviewFormComponent } from './review-form/review-form.component';
 import { ReviewDetailsComponent } from './review-details/review-details.component';
 import { DatePassedPipe } from './date-passed.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DatePassedPipe } from './date-passed.pipe';
     ReviewComponent,
     ReviewFormComponent,
     ReviewDetailsComponent,
-    DatePassedPipe
+    DatePassedPipe,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
