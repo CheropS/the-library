@@ -8,7 +8,8 @@ import { Review } from '../review';
 })
 export class ReviewDetailsComponent implements OnInit {
 
-  @Input() review:Review;
+  @Input()
+  review!: Review;
   @Output() isDeleted=new EventEmitter<boolean>();
 
   reviewDeletion(remove:boolean){
