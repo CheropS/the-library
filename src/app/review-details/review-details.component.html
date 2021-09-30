@@ -5,7 +5,7 @@
     <hr>
     <p><small class="text-muted">Uploaded by </small> {{review.userName}}</p>
     <p><small class="text-muted">Posted </small> {{review.datePosted|datePassed}} days ago</p>
-    <p> <span class="green">{{review.like}} Likes   </span>  <br>   <span class="red">{{review.dislikes}} Dislikes</span></p>
+    <p> <span class="black">{{review.like}} Likes   </span>  <br>   <span class="red">{{review.dislike}} Dislikes</span></p>
     <hr>
 
     <button (click)='reviewDeletion(true)' class="btn btn-danger">Delete</button>

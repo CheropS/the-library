@@ -1,9 +1,9 @@
 export class Review {
+    
+    showReviewDetails: boolean;
 
-    showReviewDetails:boolean;
-    constructor(public datePosted:Date,public userName:string,public review:string,public like:number,public dislike:number){
+    constructor(public datePosted:Date,public review:string,public userName:string,public like:number,public dislike:number){
 
-        this.showReviewDetails=false;
     }
     
 }
