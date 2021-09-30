@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ReviewComponent } from './review/review.component';
 import { ReviewFormComponent } from './review-form/review-form.component';
+import { ReviewDetailsComponent } from './review-details/review-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ReviewComponent,
-    ReviewFormComponent
+    ReviewFormComponent,
+    ReviewDetailsComponent
   ],
   imports: [
     BrowserModule,
