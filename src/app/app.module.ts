@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 
@@ -23,6 +24,7 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchComponent } from './search/search.component';
+import { BookServiceService } from './book-service/book-service.service'
 
 @NgModule({
   declarations: [
@@ -33,6 +35,7 @@ import { SearchComponent } from './search/search.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MdbAccordionModule,
     MdbCarouselModule,
     MdbCheckboxModule,
@@ -49,7 +52,7 @@ import { SearchComponent } from './search/search.component';
     MdbTooltipModule,
     MdbValidationModule,
   ],
-  providers: [],
+  providers: [HttpClientModule, BookServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -64,6 +64,7 @@ Trusted by <b>2 000 000+</b> developers & designers. Used by companies like
 
 **[>> Click here for a written tutorial](https://mdbootstrap.com/docs/b5/angular/getting-started/quick-start/)**
 
+<<<<<<< Updated upstream
 <table>
   <tbody>
     <tr>
@@ -193,3 +194,6 @@ Trusted by <b>2 000 000+</b> developers & designers. Used by companies like
 </table>
 
 and more.
+=======
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+>>>>>>> Stashed changes
