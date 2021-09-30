@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ReviewComponent } from './review/review.component';
 import { ReviewFormComponent } from './review-form/review-form.component';
 import { ReviewDetailsComponent } from './review-details/review-details.component';
+import { DatePassedPipe } from './date-passed.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ReviewComponent,
     ReviewFormComponent,
-    ReviewDetailsComponent
+    ReviewDetailsComponent,
+    DatePassedPipe
   ],
   imports: [
     BrowserModule,
