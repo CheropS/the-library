@@ -11,12 +11,10 @@
 .card{
     background-color: rgba(25, 41, 47,0.67);
     color: blanchedalmond;
-    border:1px  chartreuse;
     border-style: groove;
-    
 }
 
-.quotes{
+.reviews{
     margin-top: 100px;
     color: blanchedalmond;
     display: inline-flexbox;
@@ -24,12 +22,13 @@
 
 .container{
     width: 80%;
-    float: left;
+    text-align: center;
 }
 
-.popularQuote{
+.popularReview{
     width: 20%;
     float: right;
+
 }
 .card-columns{
     column-count: 5;

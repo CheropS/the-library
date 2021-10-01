@@ -7,7 +7,7 @@ import { Review } from './review';
 export class HighlightDirective {
 
   constructor(private elem: ElementRef) {
-    this.elem.nativeElement.style.backgroundColor='blue';
+    this.elem.nativeElement.style.backgroundColor="rgba(0, 0, 255,0.47)";
    }
 
 }
