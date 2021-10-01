@@ -9,7 +9,7 @@ import { NgForm } from '@angular/forms';
 })
 export class ReviewFormComponent implements OnInit {
 
-  newReview = new Review(new Date(),"","",0,0)
+  newReview = new Review(0,new Date(),"","",0,0,false)
   @Output() addReview= new EventEmitter<Review>();
 
   onSubmit(form: NgForm){

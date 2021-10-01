@@ -10,6 +10,7 @@ import { ReviewFormComponent } from './review-form/review-form.component';
 import { ReviewDetailsComponent } from './review-details/review-details.component';
 import { DatePassedPipe } from './date-passed.pipe';
 import { HighlightDirective } from './highlight.directive';
+// import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 // MDB Modules
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
@@ -65,6 +66,10 @@ import { BookServiceService } from './book-service/book-service.service'
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
+
+    FormsModule,
+    // NgbModule,
+
   ],
   providers: [HttpClientModule, BookServiceService],
   bootstrap: [AppComponent]

@@ -5,3 +5,9 @@ p{color: blanchedalmond;}
 .black{
     color: black;
 }
+
+button {
+    padding-right: 45px;
+    width: 40px;
+  }
+
