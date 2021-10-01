@@ -10,7 +10,6 @@ import { ReviewFormComponent } from './review-form/review-form.component';
 import { ReviewDetailsComponent } from './review-details/review-details.component';
 import { DatePassedPipe } from './date-passed.pipe';
 import { HighlightDirective } from './highlight.directive';
-import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 // MDB Modules
@@ -49,10 +48,6 @@ import { BookServiceService } from './book-service/book-service.service'
   imports: [
     BrowserModule,
     AppRoutingModule,
-<<<<<<< HEAD
-<<<<<<< HEAD
-    FormsModule
-=======
     FormsModule,
     BrowserAnimationsModule,
     HttpClientModule,
@@ -71,11 +66,10 @@ import { BookServiceService } from './book-service/book-service.service'
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
->>>>>>> testing
-=======
+
     FormsModule,
-    NgbModule
->>>>>>> 380730715d479341898f82bf5be47acbe13be5ea
+    NgbModule,
+
   ],
   providers: [HttpClientModule, BookServiceService],
   bootstrap: [AppComponent]
