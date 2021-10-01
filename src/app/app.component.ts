@@ -17,9 +17,5 @@ export class AppComponent  implements OnInit{
     this.bookService.getBooks();
 
   } 
-<<<<<<< HEAD
-}
 
-=======
 }
->>>>>>> f13df98a1ef7d3009a639434df7724ddc7ae4840
