@@ -10,17 +10,16 @@ import {Book} from './book-class/book';
 })
 export class AppComponent  implements OnInit{
   title = 'Library';
-  booksList = Subscription;
+  booksList:Subscription;
   books: Book[];
   constructor(private bookService: BookServiceService) { }
   ngOnInit(): void{
     this.bookService.getBooks();
-    this.booksList = this.bookService.getBooks().
-    subscribe(books => this.books = books),
-    err => {  console.log(err);
-    };
-    // this.books = this.bookService.book;
-    console.log(this.bookService.getBooks());
+
   } 
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> f13df98a1ef7d3009a639434df7724ddc7ae4840
