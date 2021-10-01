@@ -11,6 +11,7 @@ import { ReviewDetailsComponent } from './review-details/review-details.componen
 import { DatePassedPipe } from './date-passed.pipe';
 import { HighlightDirective } from './highlight.directive';
 import { FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 // MDB Modules
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
@@ -49,6 +50,7 @@ import { BookServiceService } from './book-service/book-service.service'
     BrowserModule,
     AppRoutingModule,
 <<<<<<< HEAD
+<<<<<<< HEAD
     FormsModule
 =======
     FormsModule,
@@ -70,6 +72,10 @@ import { BookServiceService } from './book-service/book-service.service'
     MdbTooltipModule,
     MdbValidationModule,
 >>>>>>> testing
+=======
+    FormsModule,
+    NgbModule
+>>>>>>> 380730715d479341898f82bf5be47acbe13be5ea
   ],
   providers: [HttpClientModule, BookServiceService],
   bootstrap: [AppComponent]
