@@ -1,3 +1,24 @@
 h1 {
     color: purple;
 }
+
+.modal-content {
+    width: 100rem;
+}
+
+input[type=text] {
+    border: 1px solid #00bfff;
+    padding: 15px;
+    color: burlywood;
+}
+
+textarea {
+    border: 1px solid #00bfff;
+    padding: 15px;
+    color: burlywood;
+    margin-top: 15px;
+}
+
+label[for=review-text] {
+    margin-top: 45px;
+}

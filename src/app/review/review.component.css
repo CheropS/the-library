@@ -10,6 +10,7 @@
     background-color: rgba(25, 41, 47,0.67);
     color: blanchedalmond;
     border-style: groove;
+    font-weight: bold;
 }
 
 .reviews{
@@ -30,4 +31,8 @@
 }
 .card-columns{
     column-count: 5;
+}
+
+.card-text{
+    width: 100%;
 }
