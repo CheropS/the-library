@@ -1,0 +1,32 @@
+.form-control{
+    border: 1px solid #4dd0e1;
+    border-radius: 25px;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+
+}
+::placeholder{
+    text-align: center;
+}
+input:focus::placeholder {
+    color: transparent;
+  }
+  
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F652A0;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
